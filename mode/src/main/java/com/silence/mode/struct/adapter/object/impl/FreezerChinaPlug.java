@@ -12,7 +12,6 @@ public class FreezerChinaPlug implements ChinaPlug {
 
         System.out.println("电冰箱中国版本的插头！接入电压：" + voltage + "V");
 
-
     }
 
 }
