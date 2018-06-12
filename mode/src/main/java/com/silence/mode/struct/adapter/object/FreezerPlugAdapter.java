@@ -1,15 +1,15 @@
 package com.silence.mode.struct.adapter.object;
 
-import com.silence.mode.struct.adapter.object.impl.WaterHeaterAmericaPlug;
+import com.silence.mode.struct.adapter.object.impl.FreezerAmericaPlug;
 
 /**
  * Created by Silence on 2018/6/6.
  */
-public class WaterHeaterPlugAdapter implements ChinaPlug {
+public class FreezerPlugAdapter implements ChinaPlug {
 
-    private WaterHeaterAmericaPlug europePlug;
+    private FreezerAmericaPlug europePlug;
 
-    public WaterHeaterPlugAdapter(WaterHeaterAmericaPlug europePlug) {
+    public FreezerPlugAdapter(FreezerAmericaPlug europePlug) {
         this.europePlug = europePlug;
     }
 

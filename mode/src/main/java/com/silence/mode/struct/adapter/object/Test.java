@@ -1,7 +1,7 @@
 package com.silence.mode.struct.adapter.object;
 
-import com.silence.mode.struct.adapter.object.impl.WaterHeaterAmericaPlug;
-import com.silence.mode.struct.adapter.object.impl.WaterHeaterChinaPlug;
+import com.silence.mode.struct.adapter.object.impl.FreezerAmericaPlug;
+import com.silence.mode.struct.adapter.object.impl.FreezerChinaPlug;
 
 /**
  * Created by Silence on 2018/6/6.
@@ -12,12 +12,12 @@ public class Test {
 
         int voltage = 220;
 
-        WaterHeaterAmericaPlug europePlug = new WaterHeaterAmericaPlug();
+        FreezerAmericaPlug europePlug = new FreezerAmericaPlug();
 
-        ChinaPlug chinaPlug = new WaterHeaterChinaPlug();
+        ChinaPlug chinaPlug = new FreezerChinaPlug();
         chinaPlug.workForChina(voltage);
 
-        ChinaPlug adapterPlug = new WaterHeaterPlugAdapter(europePlug);
+        ChinaPlug adapterPlug = new FreezerPlugAdapter(europePlug);
 
         adapterPlug.workForChina(voltage);
 
