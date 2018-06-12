@@ -1,0 +1,9 @@
+.idea
+*.iml
+.DS_Store
+*.zip
+*.log
+/bin
+*.tmp
+classes
+target
