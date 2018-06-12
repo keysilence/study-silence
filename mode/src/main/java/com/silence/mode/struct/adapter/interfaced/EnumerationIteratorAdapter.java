@@ -1,4 +1,4 @@
-package com.silence.mode.struct.adapter.inter_face;
+package com.silence.mode.struct.adapter.interfaced;
 
 import java.util.Enumeration;
 import java.util.Iterator;

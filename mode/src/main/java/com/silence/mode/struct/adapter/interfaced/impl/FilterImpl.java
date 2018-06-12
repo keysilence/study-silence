@@ -1,6 +1,6 @@
-package com.silence.mode.struct.adapter.inter_face.impl;
+package com.silence.mode.struct.adapter.interfaced.impl;
 
-import com.silence.mode.struct.adapter.inter_face.AbstractFilter;
+import com.silence.mode.struct.adapter.interfaced.AbstractFilter;
 
 /**
  * Created by Silence on 2018/6/12.
