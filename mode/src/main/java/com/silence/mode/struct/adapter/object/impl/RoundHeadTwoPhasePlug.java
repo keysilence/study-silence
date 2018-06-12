@@ -8,9 +8,9 @@ import com.silence.mode.struct.adapter.object.TwoPhasePlug;
 public class RoundHeadTwoPhasePlug implements TwoPhasePlug {
 
     @Override
-    public void workWithTwoPlug() {
+    public void workWithTwoPlug(int plugs) {
 
-        System.out.println("两相圆插头！");
+        System.out.println("两相圆插头拥有" + plugs + "个插头！");
 
     }
 

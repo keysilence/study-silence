@@ -5,6 +5,6 @@ package com.silence.mode.struct.adapter.object;
  */
 public interface TwoPhasePlug {
 
-    void workWithTwoPlug();
+    void workWithTwoPlug(int plugs);
 
 }

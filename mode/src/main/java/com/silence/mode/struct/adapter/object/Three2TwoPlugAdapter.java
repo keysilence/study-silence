@@ -14,11 +14,12 @@ public class Three2TwoPlugAdapter implements TwoPhasePlug {
     }
 
     @Override
-    public void workWithTwoPlug() {
+    public void workWithTwoPlug(int plugs) {
 
+        plugs = plugs - 1;
         System.out.println("三相->两相转换器！");
 
-        threePhasePlug.workWithThreePlug();
+        threePhasePlug.workWithThreePlug(plugs);
 
     }
 
