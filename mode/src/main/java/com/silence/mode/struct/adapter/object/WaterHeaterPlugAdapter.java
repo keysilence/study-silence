@@ -14,11 +14,11 @@ public class WaterHeaterPlugAdapter implements ChinaPlug {
     }
 
     @Override
-    public int workForChina() {
+    public void workForChina(int voltage) {
 
-        int voltage = europePlug.workForAmerica() * 2;
-        System.out.println("变压器输出翻倍电压！接入电压变为：" + voltage + "V");
-        return voltage;
+        voltage = voltage / 2;
+        europePlug.workForAmerica(voltage);
+        System.out.println("变压器输出减半电压！接入电压变为：" + voltage + "V");
 
     }
 

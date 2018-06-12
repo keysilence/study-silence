@@ -10,14 +10,16 @@ public class Test {
 
     public static void main(String[] args) {
 
+        int voltage = 220;
+
         WaterHeaterAmericaPlug europePlug = new WaterHeaterAmericaPlug();
 
         ChinaPlug chinaPlug = new WaterHeaterChinaPlug();
-        chinaPlug.workForChina();
+        chinaPlug.workForChina(voltage);
 
         ChinaPlug adapterPlug = new WaterHeaterPlugAdapter(europePlug);
 
-        adapterPlug.workForChina();
+        adapterPlug.workForChina(voltage);
 
     }
 

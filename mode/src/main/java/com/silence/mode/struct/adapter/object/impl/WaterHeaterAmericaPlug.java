@@ -5,11 +5,9 @@ package com.silence.mode.struct.adapter.object.impl;
  */
 public class WaterHeaterAmericaPlug {
 
-    public int workForAmerica() {
+    public void workForAmerica(int voltage) {
 
-        int voltage = 110;
         System.out.println("热水器美国版本的插头！接入电压：" + 110 + "V");
-        return voltage;
 
     }
 

@@ -5,6 +5,6 @@ package com.silence.mode.struct.adapter.object;
  */
 public interface ChinaPlug {
 
-    int workForChina();
+    void workForChina(int voltage);
 
 }

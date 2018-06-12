@@ -8,11 +8,10 @@ import com.silence.mode.struct.adapter.object.ChinaPlug;
 public class WaterHeaterChinaPlug implements ChinaPlug {
 
     @Override
-    public int workForChina() {
+    public void workForChina(int voltage) {
 
-        int voltage = 220;
         System.out.println("热水器中国版本的插头！接入电压：" + voltage + "V");
-        return voltage;
+
 
     }
 
