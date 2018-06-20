@@ -1,6 +1,5 @@
-package com.silence;
+package com.silence.mode.behavior.observer;
 
-import com.silence.mode.behavior.observer.Interviewee;
 import com.silence.mode.behavior.observer.impl.Company;
 import com.silence.mode.behavior.observer.impl.IntervieweeA;
 import com.silence.mode.behavior.observer.impl.IntervieweeB;
@@ -9,7 +8,7 @@ import com.silence.mode.behavior.observer.impl.IntervieweeB;
  * 测试类
  *
  */
-public class App  {
+public class Test  {
 
     public static void main( String[] args ) {
 
