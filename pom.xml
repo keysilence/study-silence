@@ -8,6 +8,7 @@
   <modules>
     <module>multi-thread</module>
       <module>mode</module>
+      <module>memory</module>
   </modules>
   <packaging>pom</packaging>
 
